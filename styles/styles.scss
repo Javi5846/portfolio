@@ -705,6 +705,12 @@
   /*------------------------------------------------------- Portfolio --------------------------------------------------------*/
   @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 
+  .portfolio--tittle {
+    color: whitesmoke;
+    font-family: "MotoGP Display Bold";
+    font-size: 40px;
+  }
+
   .container-portfolio {
       margin: 0;
   }
@@ -725,6 +731,7 @@
 
   figure.snip0015 {
     font-family: 'Raleway', Arial, sans-serif;
+    font-size: 16px;
     color: #fff;
     position: relative;
     overflow: hidden;
