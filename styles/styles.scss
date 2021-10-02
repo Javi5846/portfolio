@@ -758,6 +758,7 @@
     width: 100%;
     background: #000000;
     text-align: center;
+    border-radius: 3%;
   }
   figure.snip0015 * {
     -webkit-box-sizing: border-box;
@@ -828,19 +829,19 @@
   figure.snip0015:hover img {
     opacity: 0.35;
   }
-  figure.snip0015:hover figcaption h2 {
+  figure.snip0015 figcaption h2 {
     opacity: 1;
     -webkit-transform: translate3d(0%, 0%, 0);
     transform: translate3d(0%, 0%, 0);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
-  figure.snip0015:hover figcaption p {
+  figure.snip0015 figcaption p {
     opacity: 0.9;
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
   }
-  figure.snip0015:hover figcaption::before {
+  figure.snip0015 figcaption::before {
     background: rgba(255, 255, 255, 0);
     top: 30px;
     bottom: 30px;
