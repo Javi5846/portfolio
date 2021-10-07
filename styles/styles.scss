@@ -651,14 +651,14 @@
     text-decoration: none;
   }
   .link-three:hover {
-    color: rgb(255, 255, 255);
+    color: #111;
     transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
   }
   
   .link-three::after {
     content: "";
     position: absolute;
-    z-index: 2;
+    z-index: -1;
     width: 50%;
     height: 100%;
     top: 0%;
@@ -688,7 +688,7 @@
   .link-three::before {
     content: "";
     position: absolute;
-    z-index: 2;
+    z-index: -1;
     width: 50%;
     height: 100%;
     bottom: 0%;
