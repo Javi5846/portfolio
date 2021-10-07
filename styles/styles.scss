@@ -52,7 +52,6 @@
     margin: 0;
     padding: 0;  
   }
-  
   .glitch{
     width: 100vw;
     height: 100vh;
@@ -119,12 +118,12 @@
       }  
     }
     
-    .glitch__title{
+    .glitch__title {
         font-family: "MotoGP Display Bold";
-        font-size: 100px; 
+        font-size: 80px; 
         color: #dddddd;
         position: relative;
-        text-transform: uppercase;   
+        text-transform: uppercase; 
       
       &:before,
       &:after{
@@ -652,7 +651,7 @@
     text-decoration: none;
   }
   .link-three:hover {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
   }
   
@@ -719,7 +718,6 @@
 
 
   /*------------------------------------------------------- Portfolio --------------------------------------------------------*/
-  @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 
   .portfolio--tittle {
     color: whitesmoke;
@@ -909,4 +907,7 @@
     color: #ffffff;
     text-shadow: #929090 0.01em 0.01em 0.5em
   }
+  
+  /*------------------------------------------------------------------ ABOUT US -----------------------------------------------------*/ 
+
   
