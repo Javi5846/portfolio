@@ -907,7 +907,14 @@
     color: #ffffff;
     text-shadow: #929090 0.01em 0.01em 0.5em
   }
-  
+  .back--to--menu--h2 {
+    margin-top: -150px;
+  }
+  @media only screen and (max-width: 768px) {
+    .back--to--menu--h2 {
+      margin-top: 280px;
+      padding-bottom: 40px;
+    }}
   /*------------------------------------------------------------------ ABOUT US -----------------------------------------------------*/ 
 
   
