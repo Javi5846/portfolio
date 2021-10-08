@@ -859,6 +859,8 @@
   
   /* Demo purposes only */
   .body-portfolio {
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
     background-color: #212121;
     display: flex;
     justify-content: center;
@@ -874,6 +876,8 @@
   }
   
   .body--contact {
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
     margin: 0;
     background: #212121;
   }
