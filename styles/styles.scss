@@ -2,17 +2,22 @@
 .back--to--menu {
   display: flex;
   justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 .back--to--menu--h2 {
-  margin-top: -150px;
+  font-size: 40px;
   font-family: "MotoGP Display Bold"; 
   color: #dddddd;
-  text-decoration: none;
 }
 .back--to--menu--h2:hover {
-  font-size: 45px;
+  font-size: 43px;
   color: #ffffff;
 }
+.back--to--menu--a {
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 768px) {
   .back--to--menu--h2 {
@@ -885,14 +890,21 @@
     margin: 0;
     background: #212121;
   }
+  @media only screen and (max-width: 768px) {
+    main {
+      height: 640px!important;
+      margin-top: 100px!important;
+    }
+  }
   main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 350px;
     width: 100%;
     margin: auto;
+    margin-top: 150px;
   }
   
   .image-card {
