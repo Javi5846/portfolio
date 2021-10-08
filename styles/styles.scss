@@ -935,16 +935,17 @@
   .body--about--us {
     margin-top: 20px;
     width: 100%;
+    height: 100%;
   }
   #about--us--title--h2 {
     font-size: 30px!important;
     margin-left: 20px!important;
   }
   .container{
-    margin-top: 90px;
+    margin-top: 100px;
     padding-bottom: 100px;
     width:360px!important;
-    height:100%;
+    height:400px;
   }
   .word{
     display:block;
@@ -960,7 +961,7 @@
   .word7{font-size:2.0em;}
   .word8{font-size:1.3em}
   .word9{font-size:1.4em;}
-  .word10{font-size:1.8em}
+  .word10{font-size:1.5em}
   .word11{font-size:1.4em;}
   .word11-bis{font-size:1.3em;}
   .word12{font-size:1.5em;}
@@ -1025,22 +1026,25 @@
     top:55px;
     height: 80px;
     width: 110px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
   }
   .bubble4 span.the-arrow4 {
-    left:-18px;
+    left:-12px;
     top:60px;
   }
   .bubble5 {
     font-size: 10px;
     padding: 10px;
-    left: -50px;
+    left: -42px;
     top: 160px;
     height: 80px;
     width: 118px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
   }
   .bubble5 span.the-arrow5 {
-    left: 110px;
+    left: 105px;
     top:0px;
   }
   .bubble6 {
@@ -1052,10 +1056,24 @@
     padding-right: 5px;
     height: 105px;
     width: 100px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
   }
   .bubble6 span.the-arrow6 {
     left: -10px;
+  }
+  .bubble7 {
+    font-size: 10px;
+    padding: 10px;
+    left: -25px;
+    top: 260px;
+    height: 110px;
+    width: 80px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+  }
+  .bubble7 span.the-arrow7 {
+    left: 70px;
   }
  
 }
