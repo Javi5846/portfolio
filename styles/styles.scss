@@ -4,15 +4,22 @@
   justify-content: center;
 }
 .back--to--menu--h2 {
+  margin-top: -150px;
   font-family: "MotoGP Display Bold"; 
   color: #dddddd;
-  font-size: 40px;
   text-decoration: none;
 }
 .back--to--menu--h2:hover {
   font-size: 45px;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+  .back--to--menu--h2 {
+    font-size: 35px;
+    margin-top: 280px;
+    padding-bottom: 30px;
+  }}
 
 @import url(//db.onlinewebfonts.com/c/342e95d629a08ee0db807f03f69d0c5f?family=MotoGP+Display+Bold);
 @font-face {font-family: "MotoGP Display Bold"; src: url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.eot"); src: url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.woff") format("woff"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.svg#MotoGP Display Bold") format("svg"); }
@@ -651,7 +658,7 @@
     text-decoration: none;
   }
   .link-three:hover {
-    color: #111;
+    color: rgb(0, 0, 0);
     transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
   }
   
@@ -718,6 +725,7 @@
 
 
   /*------------------------------------------------------- Portfolio --------------------------------------------------------*/
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 
   .portfolio--tittle {
     color: whitesmoke;
@@ -907,14 +915,7 @@
     color: #ffffff;
     text-shadow: #929090 0.01em 0.01em 0.5em
   }
-  .back--to--menu--h2 {
-    margin-top: -150px;
-  }
-  @media only screen and (max-width: 768px) {
-    .back--to--menu--h2 {
-      margin-top: 280px;
-      padding-bottom: 40px;
-    }}
+  
   /*------------------------------------------------------------------ ABOUT US -----------------------------------------------------*/ 
 
   
