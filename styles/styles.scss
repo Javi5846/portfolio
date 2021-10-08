@@ -933,6 +933,8 @@
     width: 100%;
   }
   .body--about--us {
+    padding-right: 5px;
+    padding-left: 5px;
     margin-top: 20px;
     width: 100%;
     height: 100%;
@@ -1028,7 +1030,7 @@
     left:75%;
     top:55px;
     height: 80px;
-    width: 110px;
+    width: 100px;
     border-radius: 20px;
     border-bottom-left-radius: 0;
   }
@@ -1068,15 +1070,18 @@
   .bubble7 {
     font-size: 10px;
     padding: 10px;
-    left: -25px;
-    top: 260px;
+    left: 30px;
+    top: 280px;
     height: 110px;
     width: 80px;
     border-radius: 20px;
     border-top-right-radius: 0;
   }
   .bubble7 span.the-arrow7 {
-    left: 70px;
+    left: 60px;
+    top: -10px;
+    transform: rotate(-0deg);
+
   }
  
 }

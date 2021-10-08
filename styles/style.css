@@ -135,47 +135,47 @@
 
 @keyframes glitch-anim {
   0% {
-    clip: rect(97px, 9999px, 22px, 0); }
+    clip: rect(117px, 9999px, 154px, 0); }
   5% {
-    clip: rect(76px, 9999px, 39px, 0); }
+    clip: rect(132px, 9999px, 136px, 0); }
   10% {
-    clip: rect(41px, 9999px, 137px, 0); }
+    clip: rect(10px, 9999px, 28px, 0); }
   15% {
-    clip: rect(112px, 9999px, 147px, 0); }
+    clip: rect(53px, 9999px, 110px, 0); }
   20% {
-    clip: rect(155px, 9999px, 160px, 0); }
+    clip: rect(99px, 9999px, 90px, 0); }
   25% {
-    clip: rect(148px, 9999px, 7px, 0); }
+    clip: rect(76px, 9999px, 70px, 0); }
   30% {
-    clip: rect(139px, 9999px, 170px, 0); }
+    clip: rect(50px, 9999px, 95px, 0); }
   35% {
-    clip: rect(53px, 9999px, 98px, 0); }
+    clip: rect(98px, 9999px, 52px, 0); }
   40% {
-    clip: rect(31px, 9999px, 142px, 0); }
+    clip: rect(42px, 9999px, 58px, 0); }
   45% {
-    clip: rect(28px, 9999px, 121px, 0); }
+    clip: rect(55px, 9999px, 139px, 0); }
   50% {
-    clip: rect(147px, 9999px, 51px, 0); }
+    clip: rect(88px, 9999px, 27px, 0); }
   55% {
-    clip: rect(146px, 9999px, 122px, 0); }
+    clip: rect(79px, 9999px, 42px, 0); }
   60% {
-    clip: rect(104px, 9999px, 134px, 0); }
+    clip: rect(127px, 9999px, 13px, 0); }
   65% {
-    clip: rect(60px, 9999px, 111px, 0); }
+    clip: rect(42px, 9999px, 109px, 0); }
   70% {
-    clip: rect(125px, 9999px, 46px, 0); }
+    clip: rect(103px, 9999px, 159px, 0); }
   75% {
-    clip: rect(20px, 9999px, 100px, 0); }
+    clip: rect(74px, 9999px, 162px, 0); }
   80% {
-    clip: rect(119px, 9999px, 70px, 0); }
+    clip: rect(101px, 9999px, 75px, 0); }
   85% {
-    clip: rect(153px, 9999px, 62px, 0); }
+    clip: rect(63px, 9999px, 105px, 0); }
   90% {
-    clip: rect(7px, 9999px, 73px, 0); }
+    clip: rect(159px, 9999px, 147px, 0); }
   95% {
-    clip: rect(69px, 9999px, 16px, 0); }
+    clip: rect(74px, 9999px, 146px, 0); }
   100% {
-    clip: rect(49px, 9999px, 22px, 0); } }
+    clip: rect(122px, 9999px, 106px, 0); } }
 
 @keyframes glitch-anim-2 {
   0% {
@@ -780,6 +780,8 @@ main {
     height: 100%;
     width: 100%; }
   .body--about--us {
+    padding-right: 5px;
+    padding-left: 5px;
     margin-top: 20px;
     width: 100%;
     height: 100%; }
@@ -874,7 +876,7 @@ main {
     left: 75%;
     top: 55px;
     height: 80px;
-    width: 110px;
+    width: 100px;
     border-radius: 20px;
     border-bottom-left-radius: 0; }
   .bubble4 span.the-arrow4 {
@@ -908,11 +910,13 @@ main {
   .bubble7 {
     font-size: 10px;
     padding: 10px;
-    left: -25px;
-    top: 260px;
+    left: 30px;
+    top: 280px;
     height: 110px;
     width: 80px;
     border-radius: 20px;
     border-top-right-radius: 0; }
   .bubble7 span.the-arrow7 {
-    left: 70px; } }
+    left: 60px;
+    top: -10px;
+    transform: rotate(0deg); } }
