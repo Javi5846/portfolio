@@ -752,6 +752,7 @@
       grid-template-rows: 1fr;
   }
   @media only screen and (max-width: 768px) {
+    
     .row-portfolio {
         margin-top: 80px;
         display: grid;
@@ -941,7 +942,6 @@
 @media only screen and (max-width: 760px) {
   html {
     align-content: center;
-    height: 100%;
     width: 100%;
   }
   .body--about--us {
