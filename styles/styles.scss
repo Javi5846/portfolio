@@ -22,12 +22,29 @@
 @media only screen and (max-width: 768px) {
   .back--to--menu--h2 {
     font-size: 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .back--to--menu--h2--contact {
+    font-size: 35px!important;
+    font-family: "MotoGP Display Bold"; 
+    color: #dddddd;
+    font-size: 35px;
     margin-top: 280px;
     padding-bottom: 30px;
-  }}
+  }
+  .back--to--menu--a--contact {
+    text-decoration: none;
+  }
+  .back--to--menu--h2--contact:hover {
+    font-size: 43px;
+    color: #ffffff;
+  }
+  }
 
 @import url(//db.onlinewebfonts.com/c/342e95d629a08ee0db807f03f69d0c5f?family=MotoGP+Display+Bold);
 @font-face {font-family: "MotoGP Display Bold"; src: url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.eot"); src: url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.woff") format("woff"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/342e95d629a08ee0db807f03f69d0c5f.svg#MotoGP Display Bold") format("svg"); }
+
 /*------------------------------------------------Welcome Index ------------------------------------------------------------*/
 :root{
     --color-text: #fff;
