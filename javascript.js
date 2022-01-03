@@ -427,5 +427,11 @@ function createTweenScrubber(tween, seekSpeed) {
 
 /*------------------------------------------------------ Contact ----------------------------------------------------------*/
 
+const colorChange = document.createElement('div');
+colorChange.classList.add('color palette', 'col-md-12');
   
-  
+/*----Image--------*/
+
+const colorChangeImage = document.createElement('img');
+colorChangeImage.classList.add('img-fluid');
+colorChangeImage.setAttribute('src', info.imagen);

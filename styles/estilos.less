@@ -64,7 +64,7 @@ html, .body--about--us{
 .bubble(@color, @height:150px, @width:250px){
   height:@height;
   width:@width;
-  padding:20px;
+  padding:8px;
   position:absolute;
   color:white;
   background-color:@color;
@@ -121,20 +121,21 @@ html, .body--about--us{
   }
 }
 .bubble2{
-  .bubble(#99C5DE, 150px, 170px);
-  .border-radius(20px, 20px , 20px, 0px);
-  left:120%;
+  .bubble(#99C5DE, 190px, 138px);
+  .border-radius(0px, 20px , 20px, 20px);
+  left:140%;
   top:15px;
   span.the-arrow2{
     
-    .arrow(130px, -19px, #99C5DE);
+    .arrow(0px, -15px, #99C5DE);
+    transform:rotate(270deg);
   }  
   img{
-    .border-radius(10px,10px,10px,10px);
+    .border-radius(20px,20px,20px,20px);
     background:white;
     display:block;
-    width:100%;
-    height:100%;
+    width:120px;
+    height:175px;
   }
 }
 .bubble3{
